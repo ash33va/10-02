@@ -1,0 +1,78 @@
+/* Контейнер страницы настроек */
+.settings-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff0f6; /* Пастельно-розовый фон */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Заголовок страницы */
+  .settings-container h2 {
+    text-align: center;
+    color: #d16c92; /* Розовый цвет для заголовка */
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Стили для элементов настроек */
+  .setting-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .setting-item h3 {
+    color: #d16c92;
+    margin-bottom: 10px;
+  }
+  
+  /* Стили для лейблов */
+  .setting-item label {
+    display: block;
+    margin-top: 8px;
+    font-size: 16px;
+    color: #555555;
+  }
+  
+  /* Стили для input */
+  .setting-item input[type="number"], 
+  .setting-item input[type="checkbox"], 
+  .setting-item input[type="color"] {
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #f2c1d1; /* Легкая розовая граница */
+    width: 100%;
+    max-width: 200px;
+    margin-right: 10px;
+  }
+  
+  /* Кнопка сохранения изменений */
+  button {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    background-color: #f8a5b3; /* Пастельный розовый для кнопки */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #f06f94; /* Темный розовый при наведении */
+  }
+  
+  /* Для лучшего отображения */
+  button:disabled {
+    background-color: #f2d6d6;
+    cursor: not-allowed;
+  }
+  
